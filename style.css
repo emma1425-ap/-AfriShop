@@ -17,3 +17,42 @@ nav a {
   text-decoration: none;
   margin-left: 20px;
 }
+
+#accueil {
+  background: beige;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.bouton {
+  display: inline-block;
+  background: darkgreen;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+#produits {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#produits h2 { color: darkgreen; }
+
+.cartes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carte {
+  flex: 0 0 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.carte img { width: 100%; }
+
+.prix { font-weight: bold; color: darkgreen; }
